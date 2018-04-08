@@ -13,9 +13,7 @@
   ],
   "dependencies": {
     "purescript-dom": "^4.0.0",
-    "purescript-aff": "^4.0.0",
-    "purescript-exceptions": "^3.0.0",
-    "purescript-nullable": "~3.0.0"
+    "purescript-eff": "^3.0.0"
   },
   "devDependencies": {
     "purescript-assert": "^3.0.0",
