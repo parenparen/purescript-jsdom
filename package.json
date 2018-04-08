@@ -8,6 +8,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^9.3.0"
+    "jsdom": "^11.7.0"
   }
 }

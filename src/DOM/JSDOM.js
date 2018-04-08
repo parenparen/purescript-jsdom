@@ -2,4 +2,8 @@
 
 // module DOM.JSDOM
 
-exports._jsdom = require('jsdom');
+exports._jsdom = function (html, config) {
+    var JSDOM = require('jsdom').JSDOM;
+    var jsdom = new JSDOM(html, config);
+    return jsdom.window.document;
+}
